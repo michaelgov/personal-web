@@ -1,9 +1,86 @@
-.portrait {
-    width: 25%;
-}
-
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.Typewriter {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+
+.portrait {
+    width: 20%;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+#intro {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+#intro-desc {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.hidden:nth-child(2) {
+    transform: translateY(100%);
+    transition-delay: 600ms;
+}
+
+.show:nth-child(2) {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.hidden:nth-child(3) {
+    transform: translateY(100%);
+    transition-delay: 800ms;
+}
+
+.show:nth-child(3) {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.hidden:nth-child(4) {
+    transform: translateY(100%);
+    transition-delay: 1s;
+}
+
+.show:nth-child(4) {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
