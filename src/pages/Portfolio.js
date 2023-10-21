@@ -1,7 +1,11 @@
+import './styles/portfolio.css';
+
 function Portfolio() {
     return (
     <>
-        <h1>Portfolio</h1>
+        <body>
+            <h1>Portfolio</h1>
+        </body>
     </>
     );
 }

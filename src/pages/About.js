@@ -1,7 +1,11 @@
+import './styles/about.css';
+
 function About() {
     return (
     <>
-        <h1>About</h1>
+        <body>
+            <h1>About</h1>
+        </body>
     </>
     );
 }

@@ -1,7 +1,11 @@
+import './styles/resume.css';
+
 function Resume() {
     return (
     <>
-        <h1>Resume</h1>
+        <body>
+            <h1>Resume</h1>
+        </body>
     </>
     );
 }
