@@ -1,6 +1,6 @@
 {
   "name": "personal-web",
-  "homepage": "https://michaelgov.github.io/personal-web",
+  "homepage": "https://michaelgov.github.io/personal-web/#",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.17.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
