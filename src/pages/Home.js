@@ -1,4 +1,4 @@
-import photo from "../images/portrait.png";
+import photo from "../images/portrait edit3.png";
 import './styles/home.css';
 import React, { useEffect } from "react";
 import Typewriter from "typewriter-effect";
@@ -22,21 +22,25 @@ function Home() {
     return (
     <>
         <body>
-            <section className="hidden" id="intro">
-                <img src={photo} className="portrait" alt="pic"/>
-                <section id="intro-desc">
-                    <div className="container">
-                        <Typewriter 
-                            onInit={(Typewriter) => {
-                                Typewriter.typeString("Hi, I'm Michael.")
-                                .start();
-                            }}     
-                        />
-                    </div>
-                    <p className="hidden">I'm a recent Informatics graduate seeking roles in UX/UI and Front-End Development!</p>
-                    <p className="hidden">items 2</p>
-                    <p className="hidden">item 3</p>
+            <section id="header">
+                <section className="hidden" id="intro-text">
+                    <Typewriter 
+                        onInit={(Typewriter) => {
+                            Typewriter.typeString("")
+                            .pauseFor(1000)
+                            .changeDelay(70)
+                            Typewriter.typeString("Hi, I'm Michael.")
+                            .start()
+                        }}     
+                    />
+                    <p className="hidden">I'm a recent graduate from the <strong>University of Washington </strong> 
+                    with a degree in <i>Human-Computer Interaction!</i></p>
+                    <p className="hidden">I currently reside in the <strong>Greater Seattle Area,</strong> and enthusiastic in diving into the world of <i>UX/UI and Front-End Development</i> here in the Pacific Northwest!</p>
+                    <p className="hidden">Through my experiences in developing <strong>both mobile and web applications</strong>, I'm dedicated to pushing my limits and honing my skills to create
+                    <strong> intuitive</strong> and <strong>useful solutions</strong> through continuous learning in new environments. </p>
+                    <p className="hidden"><a href="#/contact" id="contact-link"><strong>Feel free to reach me!</strong></a></p>
                 </section>
+                <img src={photo} className="hidden" id="portrait" alt="pic"/>
             </section>
         </body>
     </>

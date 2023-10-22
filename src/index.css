@@ -11,6 +11,10 @@ code {
     monospace;
 }
 
+html {
+  background-color: #ffffff;
+}
+
 #root {
   width: 100%;
 }
