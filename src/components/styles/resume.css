@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    color: black;
+}
+
+.resume {
+    max-width: 1000px;
+    margin-top: 10px;
+    margin: 10 auto;
+}
+
+.headerSection {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+h1 {
+    flex: 1;
+    align-self: center;
+}
+
+#icon svg {
+    width: 30px;
+    height: 30px;
+}
+
+header {
+    text-align: center;
+}
+
+h1, .contact-info {
+    margin: 0px;
+    text-align: center;
+}
+
+hr {
+    position: relative;
+    bottom: 15px;
+}
+
+section ul {
+    padding-left: 20px;
+    margin-top: -30px;
+  }  
+
+section li {
+  list-style: none;
+  margin: 10px;
+}
+
+
+
+.sectionHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -10px;
+}
+
+.subHead {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 10px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.courseWork {
+    margin-top: -15px;
+    margin-bottom: -10px;
+
+}
+
+.skillSets {
+    position: relative;
+    top: 10px;
+}
+
+#icon a {
+    text-decoration: none; /* Remove the default underline */
+    position: relative; /* Create a positioning context for pseudo-element */
+  }
+  
+#icon a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0% 100%;
+    transition: transform 0.3s ease;
+}
+  
+#icon a:hover::before {
+    background-color: #555;
+    transform: scaleX(1);
+}
+
+.desc li {
+    list-style: circle;
+}

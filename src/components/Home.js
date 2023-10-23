@@ -2,6 +2,7 @@ import photo from "../images/portrait edit3.png";
 import './styles/home.css';
 import React, { useEffect } from "react";
 import Typewriter from "typewriter-effect";
+import { BsLinkedin, BsGithub } from 'react-icons/bs';
 
 function Home() {
     useEffect(() => {
@@ -38,7 +39,10 @@ function Home() {
                     <p className="hidden">I currently reside in the <strong>Greater Seattle Area,</strong> and enthusiastic in diving into the world of <i>UX/UI and Front-End Development</i> here in the Pacific Northwest!</p>
                     <p className="hidden">Through my experiences in developing <strong>both mobile and web applications</strong>, I'm dedicated to pushing my limits and honing my skills to create
                     <strong> intuitive</strong> and <strong>useful solutions</strong> through continuous learning in new environments. </p>
-                    <p className="hidden"><a href="#/contact" id="contact-link"><strong>Feel free to reach me!</strong></a></p>
+                    <p className="hidden"><a href="#/contact" id="contact-link"><strong>Feel free to reach me!</strong></a>
+                        <br />
+                        <div id="icons"><a href="https://www.linkedin.com/in/michael-gov/"><BsLinkedin /></a><a href="https://github.com/michaelgov"><BsGithub /></a></div>
+                    </p>
                 </section>
                 <img src={photo} className="hidden" id="portrait" alt="pic"/>
             </section>

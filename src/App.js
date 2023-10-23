@@ -1,9 +1,9 @@
 import Navbar from "./navbar"
-import Home from "./pages/Home"
-import About from "./pages/About"
-import Portfolio from "./pages/Portfolio"
-import Resume from "./pages/Resume"
-import Contact from "./pages/Contact"
+import Home from "./components/Home"
+import About from "./components/About"
+import Portfolio from "./components/Portfolio"
+import Resume from "./components/Resume"
+import Contact from "./components/Contact"
 import {Route, Routes} from "react-router-dom"
 
 
