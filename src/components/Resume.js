@@ -41,17 +41,17 @@ function Resume() {
           </li>
         </ul>
       </section>
-      
+
       <section>
         <h2><strong>Experience</strong></h2>
         <hr />
         <ul>
           <li>
             <div className='sectionHead'>
-                <h3>Audio/Visual Student Assistant</h3>
+              <h3>Audio/Visual Student Assistant</h3>
                 <p><strong>Nov. 2021 - June 2023</strong></p>
             </div>
-            <p className='subHead'><em>University of Washington: Health Sciences and Academic Services</em> <em>Seattle, WA</em></p>
+            <p className='subHead'><em>University of Washington: Health Sciences and Academic Services</em><em>Seattle, WA</em></p>
             <ul className="desc">
               <li>Primary point of contact for troubleshooting software and equipment systems used in classrooms.</li>
               <li>Maintained inventory and upkeep of AV equipment used across campus.</li>
@@ -63,7 +63,7 @@ function Resume() {
                 <h3>Club President</h3>
                 <p><strong>April 2020 - June 2023</strong></p>
             </div>
-            <p className='subHead'><em>Gaming Association @ UW: Valorant (WGA Valorant)</em> <em>Seattle, WA</em></p>
+            <p className='subHead'><em>Gaming Association @ UW: Valorant (WGA Valorant)</em><em>Seattle, WA</em></p>
             <ul className="desc">
               <li>Co-founded and led a competitive gaming community with over 1,500 active members.</li>
               <li>Organized large-scale tournaments and events, and established partnerships with industry-leading brands such as Razer and Red Bull.</li>
@@ -75,7 +75,7 @@ function Resume() {
                 <h3><strong>Undergraduate Research Assistant</strong></h3>
                 <p><strong>Feb. 2022 - March 2022</strong></p>
             </div>
-            <p className='subHead'><em>UW iSchool's GAMER Research Group</em> <em>Remote</em></p>
+            <p className='subHead'><em>UW iSchool's GAMER Research Group</em><em>Remote</em></p>
             <ul className="desc">
               <li>Documented research interviews and examination results.</li>
               <li>Encoded video transcripts to study the relationship between mental wellness and gaming using ATLAS.ti.</li>

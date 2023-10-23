@@ -34,17 +34,17 @@ function Home() {
                             .start()
                         }}     
                     />
-                    <p className="hidden">I'm a recent graduate from the <strong>University of Washington </strong> 
-                    with a degree in <i>Human-Computer Interaction!</i></p>
-                    <p className="hidden">I currently reside in the <strong>Greater Seattle Area,</strong> and enthusiastic in diving into the world of <i>UX/UI and Front-End Development</i> here in the Pacific Northwest!</p>
-                    <p className="hidden">Through my experiences in developing <strong>both mobile and web applications</strong>, I'm dedicated to pushing my limits and honing my skills to create
-                    <strong> intuitive</strong> and <strong>useful solutions</strong> through continuous learning in new environments. </p>
+                    <p className="hidden">University of Washington graduate with a degree in <strong>Human-Computer Interaction.</strong></p>
+                    <p className="hidden">Currently in the <strong>Greater Seattle Area</strong>, eager to explore UX/UI and Front-End Development opportunities.</p>
+                    <p className="hidden">Dedicated to enhancing skills for intuitive <strong>mobile and web application</strong> solutions in diverse environments.</p>
                     <p className="hidden"><a href="#/contact" id="contact-link"><strong>Feel free to reach me!</strong></a>
                         <br />
                         <div id="icons"><a href="https://www.linkedin.com/in/michael-gov/"><BsLinkedin /></a><a href="https://github.com/michaelgov"><BsGithub /></a></div>
                     </p>
                 </section>
-                <img src={photo} className="hidden" id="portrait" alt="pic"/>
+                <div className="image-container">
+                    <img src={photo} className="hidden" id="portrait" alt="pic"/>
+                </div>
             </section>
         </body>
     </>

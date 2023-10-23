@@ -1,10 +1,18 @@
 import './styles/contact.css';
+import Typewriter from "typewriter-effect";
 
 function Contact() {
     return (
     <>
         <body>
-            <h1>Contact</h1>
+            <div id="email">
+                <Typewriter 
+                        onInit={(Typewriter) => {
+                            Typewriter.typeString("michcgov@gmail.com")
+                            .start()
+                        }}     
+                />
+            </div>
         </body>
     </>
     );
