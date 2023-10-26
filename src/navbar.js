@@ -7,8 +7,8 @@ export default function Navbar() {
                 Mg.
             </Link>
                 <ul>
-                    <CustomLink to="/about">About</CustomLink>
                     <CustomLink to="/portfolio">Portfolio</CustomLink>
+                    <CustomLink to="/about">About</CustomLink>
                     <CustomLink to="/resume">Resume</CustomLink>
                     <CustomLink to="/contact">Contact</CustomLink>
                 </ul>
