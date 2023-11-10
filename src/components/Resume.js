@@ -25,7 +25,7 @@ function Resume() {
             <p className="skillSets"><strong>Technologies:</strong> React.js, Node.js, Leaflet, Plotly, D3.js</p>
           </li>
           <li>
-            <p className="skillSets"><strong>Tools</strong> Photoshop, Illustrator, Figma, Miro, VS Code, Git, Bash, GitHub, Tableau, SSMS, ATLAS.ti</p>
+            <p className="skillSets"><strong>Tools:</strong> Photoshop, Illustrator, Figma, Miro, VS Code, Git, Bash, GitHub, Tableau, SSMS, ATLAS.ti</p>
           </li>
         </ul>
       </section>

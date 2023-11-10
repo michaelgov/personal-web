@@ -82,8 +82,8 @@ section li {
 }
 
 #icon a {
-    text-decoration: none; /* Remove the default underline */
-    position: relative; /* Create a positioning context for pseudo-element */
+    text-decoration: none;
+    position: relative;
 }
   
 #icon a::before {

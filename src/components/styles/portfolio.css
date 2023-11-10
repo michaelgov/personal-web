@@ -13,12 +13,19 @@ body {
     margin: 10px;
 }
 
+.port-links {
+    justify-content: flex-end;
+}
+
 #icon a {
     margin-right: 10px;
 }
 
 .port-img {
+    display: flex;
+    justify-content: center;
     width: 30%;
+    height: 30%;
     border-radius: 10%;
     margin: 10px;
     box-shadow: 10px 5px 5px rgb(218, 218, 218);
@@ -27,6 +34,7 @@ body {
 .hidden-port {
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
     opacity: 0;
     filter: blur(5px);
     transform: translateY(100%);

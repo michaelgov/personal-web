@@ -5,6 +5,8 @@ body {
 }
 
 #email {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     margin: 300px;
     height: 100%;
@@ -12,4 +14,30 @@ body {
     font-size: 1em;
     font-weight: bold;
     font-family: 'DM Serif Display', serif;
+}
+
+#email a {
+    text-decoration: none;
+}
+
+.hidden-ico {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(100%);
+    width: 100%;
+    transition: all 1s ease;
+    transition-delay: 400ms;
+}
+
+.show-ico {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.show-ico a {
+    margin: 5px;
 }

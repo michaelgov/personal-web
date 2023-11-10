@@ -32,8 +32,8 @@ function Portfolio() {
                     <div>
                         <h2>Blossom</h2>
                         <p>
-                            Blossom is an app designed to help parents in postpartum. 
-                            Resources such as videos, articles and an AI Chatbot
+                            Blossom is an app <strong>designed</strong> to help parents overcome the challenges of postpartum.
+                            The app includes resources such as <em>videos, articles, and guided activites</em> to accompany parents in caring for a new child.
                         </p>
                         <br />
                         <p id="icon">
@@ -49,8 +49,8 @@ function Portfolio() {
                     <div>
                         <h2>Gender Gap in Gaming</h2>
                         <p>
-                            Blossom is an app designed to help parents in postpartum. 
-                            Resources such as videos, articles and an AI Chatbot
+                            The Gender Gap in Gaming website was <strong>developed</strong> to analyze and provide 
+                            resources about the gender gap within the gaming space in the industry and playerbase.
                         </p>
                         <br />
                         <p id="icon">
@@ -66,8 +66,8 @@ function Portfolio() {
                     <div>
                         <h2>Parktopia</h2>
                         <p>
-                            Blossom is an app designed to help parents in postpartum. 
-                            Resources such as videos, articles and an AI Chatbot
+                            Parktopia is a website <strong>developed</strong> using data from the City of Seattle to find <em>local parks with specific amenities</em> around the Greater Seattle Area.
+                            The website includes an interactive map with filterable plots to find certain parks.
                         </p>
                         <br />
                         <p id="icon">
@@ -85,8 +85,8 @@ function Portfolio() {
                     <div>
                         <h2>Lantern</h2>
                         <p>
-                            Blossom is an app designed to help parents in postpartum. 
-                            Resources such as videos, articles and an AI Chatbot
+                            Lantern is an app <strong>designed</strong> to help users find <em>local resources in their area</em> who are struggling to fulfill basic needs
+                            such as childcare, housing, food and/or financial assistance.
                         </p>
                         <br />
                         <p id="icon">
