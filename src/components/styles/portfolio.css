@@ -3,3 +3,72 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 1000px;
+    margin-top: 10px;
+    margin: 10px;
+}
+
+#icon a {
+    margin-right: 10px;
+}
+
+.port-img {
+    width: 30%;
+    border-radius: 10%;
+    margin: 10px;
+    box-shadow: 10px 5px 5px rgb(218, 218, 218);
+}
+
+.hidden-port {
+    display: flex;
+    flex-direction: row;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(100%);
+    transition: all 1s ease;
+    transition-delay: 200ms;
+}
+
+.show-port {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.hidden-port:nth-child(2) {
+    transform: translateY(100%);
+    transition-delay: 400ms;
+}
+
+.show-port:nth-child(2) {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.hidden-port:nth-child(3) {
+    transform: translateY(100%);
+    transition-delay: 600ms;
+}
+
+.show-port:nth-child(3) {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.hidden-port:nth-child(4) {
+    transform: translateY(100%);
+    transition-delay: 800ms;
+}
+
+.show-port:nth-child(4) {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
