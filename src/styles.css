@@ -67,3 +67,56 @@ body {
     background-color: #555;
     transform: scaleX(1);
 }
+
+#mobile {
+    display: none;
+}
+
+#mobile i {
+    align-items: center;
+}
+
+@media screen and (max-width: 769px) {
+
+    #mobile {
+        display: flex;
+    }
+
+    .container {
+        justify-content: center;
+    }
+
+    .nav ul {
+        padding-bottom: 10px;
+        margin-top: -20px;
+        list-style: none;
+        display: none;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+
+    .nav {
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+    }
+
+
+    #bar {
+        display: flex;
+        font-size: 1.75rem;
+    }
+
+    .nav.clicked ul {
+        display: flex;
+        flex-direction: row; /* Adjust as needed */
+    }
+
+    .mobile-head {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}

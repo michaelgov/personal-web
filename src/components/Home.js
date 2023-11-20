@@ -6,20 +6,20 @@ import { BsLinkedin, BsGithub } from 'react-icons/bs';
 
 function Home() {
     useEffect(() => {
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                console.log(entry);
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('show');
-                } else {
-                    entry.target.classList.remove('show');
-                }
-            });
+        const hiddenElements = document.querySelectorAll('.hidden');
+
+        hiddenElements.forEach((el) => {
+            el.classList.remove('show');
+            void el.offsetWidth;
+            el.classList.add('show');
         });
 
-        const hiddenElements = document.querySelectorAll('.hidden'); // Use querySelectorAll to select multiple elements
-        hiddenElements.forEach((el) => observer.observe(el));
-    }, [])
+        return () => {
+            hiddenElements.forEach((el) => {
+                el.classList.remove('show');
+            });
+        };
+    }, []); 
     return (
     <>
         <body>

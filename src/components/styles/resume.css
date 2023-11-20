@@ -107,3 +107,18 @@ section li {
 .desc li {
     list-style: circle;
 }
+
+
+@media screen and (max-width: 769px) {
+    body p, #text {
+        font-size: 14px;
+    }
+    
+    .subHead {
+        margin-right: 20px;
+    }
+
+    h1 {
+        margin-left: 60px;
+    }
+}

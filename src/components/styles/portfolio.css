@@ -80,3 +80,20 @@ body {
     filter: blur(0);
     transform: translateY(0);
 }
+
+@media screen and (max-width: 769px) {
+    .portfolio section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio section div {
+        order: 1;
+        text-align: center;
+    }
+
+    .port-img {
+        align-self: center;
+        width: 50%;
+    }
+}
