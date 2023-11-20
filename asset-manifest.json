@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/personal-web/static/css/main.4e955808.css",
+    "main.css": "/personal-web/static/css/main.d8fdcec8.css",
     "main.js": "/personal-web/static/js/main.47a80698.js",
     "static/js/787.676fbc64.chunk.js": "/personal-web/static/js/787.676fbc64.chunk.js",
     "static/media/portrait edit3.png": "/personal-web/static/media/portrait edit3.a0e9bd04a552677b5d93.png",
@@ -9,12 +9,12 @@
     "static/media/parktopia.png": "/personal-web/static/media/parktopia.cedb079f3359d0ac96c4.png",
     "static/media/lantern.png": "/personal-web/static/media/lantern.6a5ebe41fa013eb114ae.png",
     "index.html": "/personal-web/index.html",
-    "main.4e955808.css.map": "/personal-web/static/css/main.4e955808.css.map",
+    "main.d8fdcec8.css.map": "/personal-web/static/css/main.d8fdcec8.css.map",
     "main.47a80698.js.map": "/personal-web/static/js/main.47a80698.js.map",
     "787.676fbc64.chunk.js.map": "/personal-web/static/js/787.676fbc64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e955808.css",
+    "static/css/main.d8fdcec8.css",
     "static/js/main.47a80698.js"
   ]
 }
