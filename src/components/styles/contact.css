@@ -46,6 +46,6 @@ body {
 @media screen and (max-width: 769px) {
     .Typewriter {
         font-size: 2em;
-        letter-spacing: -1px;
+        letter-spacing: -2px;
     }
 }
