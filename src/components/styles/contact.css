@@ -41,3 +41,11 @@ body {
 .show-ico a {
     margin: 5px;
 }
+
+
+@media screen and (max-width: 769px) {
+    .Typewriter {
+        font-size: 2em;
+        letter-spacing: -1px;
+    }
+}
