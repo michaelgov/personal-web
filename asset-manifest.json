@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "./#/static/css/main.a656b468.css",
-    "main.js": "./#/static/js/main.edf6e01f.js",
-    "static/js/787.676fbc64.chunk.js": "./#/static/js/787.676fbc64.chunk.js",
-    "static/media/event.jpg": "./#/static/media/event.54f1e523eee1439f128c.jpg",
-    "static/media/blossom.png": "./#/static/media/blossom.94a7a481dcabceec781d.png",
-    "static/media/portrait edit3.jpg": "./#/static/media/portrait edit3.49d3008e88644629caef.jpg",
-    "static/media/gendergap.png": "./#/static/media/gendergap.dadb0fe00ff631ac4c99.png",
-    "static/media/parktopia.png": "./#/static/media/parktopia.cedb079f3359d0ac96c4.png",
-    "static/media/lantern.png": "./#/static/media/lantern.6a5ebe41fa013eb114ae.png",
-    "index.html": "./#/index.html",
-    "main.a656b468.css.map": "./#/static/css/main.a656b468.css.map",
-    "main.edf6e01f.js.map": "./#/static/js/main.edf6e01f.js.map",
-    "787.676fbc64.chunk.js.map": "./#/static/js/787.676fbc64.chunk.js.map"
+    "main.css": "/static/css/main.a656b468.css",
+    "main.js": "/static/js/main.e9ddd36f.js",
+    "static/js/787.676fbc64.chunk.js": "/static/js/787.676fbc64.chunk.js",
+    "static/media/event.jpg": "/static/media/event.54f1e523eee1439f128c.jpg",
+    "static/media/blossom.png": "/static/media/blossom.94a7a481dcabceec781d.png",
+    "static/media/portrait edit3.jpg": "/static/media/portrait edit3.49d3008e88644629caef.jpg",
+    "static/media/gendergap.png": "/static/media/gendergap.dadb0fe00ff631ac4c99.png",
+    "static/media/parktopia.png": "/static/media/parktopia.cedb079f3359d0ac96c4.png",
+    "static/media/lantern.png": "/static/media/lantern.6a5ebe41fa013eb114ae.png",
+    "index.html": "/index.html",
+    "main.a656b468.css.map": "/static/css/main.a656b468.css.map",
+    "main.e9ddd36f.js.map": "/static/js/main.e9ddd36f.js.map",
+    "787.676fbc64.chunk.js.map": "/static/js/787.676fbc64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a656b468.css",
-    "static/js/main.edf6e01f.js"
+    "static/js/main.e9ddd36f.js"
   ]
 }
