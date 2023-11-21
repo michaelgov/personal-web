@@ -1,6 +1,6 @@
 {
   "name": "personal-web",
-  "homepage": "https://michaelgov.github.io/personal-web/#",
+  "homepage": "./",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
