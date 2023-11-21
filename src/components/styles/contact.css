@@ -53,4 +53,8 @@ body {
         position: relative;
         overflow: hidden;
     }
+
+    .hidden-ico {
+        letter-spacing: -2px;
+    }
 }
