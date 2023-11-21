@@ -40,7 +40,7 @@ function About() {
                                 <em> design and technology,</em> and I am dedicated to developing seamless and pleasing digital experiences.
                             </p>
                             <p className="hidden-state">
-                                With a versatile skill set spanning from <em>user research, prototyping, front-end development, and more,</em> I am eager to <strong>embrace new challenges,
+                                With a versatile skill set spanning from <em>user research, prototyping, front-end development, and more</em>, I am eager to <strong>embrace new challenges,
                                 exceed user expectations, and continuously learn</strong> as I embark on my career path.
                             </p>
                         </div>
