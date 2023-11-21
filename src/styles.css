@@ -100,6 +100,7 @@ body {
         display: flex;
         width: 90%;
         flex-direction: column;
+        transition: 0.2s
     }
 
 
@@ -110,7 +111,8 @@ body {
 
     .nav.clicked ul {
         display: flex;
-        flex-direction: row; /* Adjust as needed */
+        flex-direction: row;
+        transition: 0.5s;
     }
 
     .mobile-head {
@@ -118,5 +120,9 @@ body {
         width: 100%;
         justify-content: space-between;
         flex-direction: row;
+    }
+
+    .site-title {
+        letter-spacing: -2px;
     }
 }

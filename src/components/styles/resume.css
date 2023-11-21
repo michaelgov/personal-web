@@ -121,4 +121,8 @@ section li {
     h1 {
         margin-left: 60px;
     }
+
+    .resume{
+        width: 90%;
+    }
 }

@@ -82,6 +82,10 @@ body {
 }
 
 @media screen and (max-width: 769px) {
+    .portfolio {
+        width: 85%;
+    }
+
     .portfolio section {
         display: flex;
         flex-direction: column;
@@ -94,6 +98,6 @@ body {
 
     .port-img {
         align-self: center;
-        width: 50%;
+        width: 60%;
     }
 }
