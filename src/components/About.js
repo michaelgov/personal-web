@@ -28,16 +28,16 @@ function About() {
                     <div className="statement">
                         <div className='begin' id="about-one">
                             <p className="hidden-state">
-                                <strong>Born and raised in the Pacific Northwest by two resilient Cambodian parents, </strong>
+                                <strong>Born and raised in the Pacific Northwest by two resilient Cambodian parents</strong>,
                                 I've always cherished the unwavering commitment they've shown in providing their children
                                 with opportunities beyond what they themselves had in rural Cambodia.
                             </p>
                             <p className="hidden-state">
-                                Today, I am a proud graduate of the <strong>University of Washington with a Bachelor's degree in Informatics.</strong>
+                                Today, I am a proud graduate of the <strong>University of Washington with a Bachelor's degree in Informatics</strong>.
                             </p>
                             <p className="hidden-state">
-                                Specializing in <strong>Human-Computer Interaction (HCI),</strong> my passion lies at the intersection of 
-                                <em>design and technology,</em> and I am dedicated to developing seamless and pleasing digital experiences.
+                                Specializing in <strong>Human-Computer Interaction (HCI)</strong>, my passion lies at the intersection of 
+                                <em> design and technology,</em> and I am dedicated to developing seamless and pleasing digital experiences.
                             </p>
                             <p className="hidden-state">
                                 With a versatile skill set spanning from <em>user research, prototyping, front-end development, and more,</em> I am eager to <strong>embrace new challenges,
