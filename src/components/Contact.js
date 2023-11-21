@@ -21,28 +21,26 @@ function Contact() {
     }, []); 
     return (
     <>
-        <body>
-            <div id="email">
-                <a href="mailto:michcgov@gmail.com">
-                    <Typewriter 
-                            onInit={(Typewriter) => {
-                                Typewriter.typeString("")
-                                .changeDelay(70)
-                                Typewriter.typeString("michcgov@gmail.com")
-                                .start()
-                            }}     
-                    />
-                </a>
-                    <br />
-                <div className="hidden-ico" id="icon">
-                    <a href="https://www.linkedin.com/in/michael-gov/"><BsLinkedin /></a>
-                    <a href="https://github.com/michaelgov"><BsGithub /></a>
-                </div>
-                <div className="hidden-ico">
-                    <p>Designed and coded by Michael Gov.</p>
-                </div>
+        <div id="email">
+            <a href="mailto:michcgov@gmail.com">
+                <Typewriter 
+                        onInit={(Typewriter) => {
+                            Typewriter.typeString("")
+                            .changeDelay(70)
+                            Typewriter.typeString("michcgov@gmail.com")
+                            .start()
+                        }}     
+                />
+            </a>
+                <br />
+            <div className="hidden-ico" id="icon">
+                <a href="https://www.linkedin.com/in/michael-gov/"><BsLinkedin /></a>
+                <a href="https://github.com/michaelgov"><BsGithub /></a>
             </div>
-        </body>
+            <div className="hidden-ico">
+                <p>Designed and coded by Michael Gov.</p>
+            </div>
+        </div>
     </>
     );
 }
