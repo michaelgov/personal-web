@@ -26,6 +26,8 @@ function Contact() {
                 <a href="mailto:michcgov@gmail.com">
                     <Typewriter 
                             onInit={(Typewriter) => {
+                                Typewriter.typeString("")
+                                .changeDelay(70)
                                 Typewriter.typeString("michcgov@gmail.com")
                                 .start()
                             }}     
@@ -37,7 +39,7 @@ function Contact() {
                     <a href="https://github.com/michaelgov"><BsGithub /></a>
                 </div>
                 <div className="hidden-ico">
-                    <p>Copyright © Michael Gov</p>
+                    <p>Designed and coded by Michael Gov.</p>
                 </div>
             </div>
         </body>

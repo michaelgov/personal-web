@@ -48,4 +48,9 @@ body {
         font-size: 2em;
         letter-spacing: -2px;
     }
+
+    #email {
+        position: relative;
+        overflow: hidden;
+    }
 }
