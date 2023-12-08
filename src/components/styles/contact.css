@@ -50,4 +50,9 @@
     .hidden-ico {
         letter-spacing: -1px;
     }
+
+    .hidden-ico p {
+        width: 800px;
+        overflow: hidden;
+    }
 }

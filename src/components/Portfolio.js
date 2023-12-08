@@ -1,7 +1,7 @@
 import './styles/portfolio.css';
 import React, { useEffect } from "react";
 import { FaFigma } from 'react-icons/fa';
-import { RiSlideshow2Line } from 'react-icons/ri';
+import { IoDocumentTextOutline } from "react-icons/io5";
 import { BsGlobe } from 'react-icons/bs';
 import blossom from "../images/port-logo/blossom.png";
 import parktopia from "../images/port-logo/parktopia.png";
@@ -39,7 +39,7 @@ function Portfolio() {
                         <a href="https://www.figma.com/file/0aktdOfXtrie699x9uQqua/Blossom-Hackathon?type=design&mode=design&t=Ayx3Dw1Z4s7He5mH-0" >
                         <FaFigma /></a>
                         <a href="https://docs.google.com/presentation/d/1--714Qw9Bv76TBZtjFhH84Ff66u_yqdd2VIgXPUPEFw/edit?usp=sharing" >
-                        <RiSlideshow2Line /></a>
+                        <IoDocumentTextOutline /></a>
                     </p>
                 </div>
                 <img className="port-img" src={blossom} alt="blossom-logo"/>
@@ -57,6 +57,8 @@ function Portfolio() {
                         <FaFigma /></a>
                         <a href="https://michaelgov.github.io/PandaCapstone/public/index.html" >
                         <BsGlobe /></a>
+                        <a href="https://docs.google.com/presentation/d/1aV7_c1r8GEM4JZcOkGK5AIZYISmVwJuBKX1nq6-_qqw/edit?usp=sharing" >
+                        <IoDocumentTextOutline /></a>
                     </p>
                 </div>
                 <img className="port-img" src={gendergap} alt="gender-gap-logo"/>
@@ -75,7 +77,7 @@ function Portfolio() {
                         <a href="https://sustainable-goat.vercel.app/" >
                         <BsGlobe /></a>
                         <a href="https://app.pitch.com/app/public/player/8df6626a-2b5c-4bf4-baac-cd77d9573fcb" >
-                        <RiSlideshow2Line /></a>
+                        <IoDocumentTextOutline /></a>
                     </p>
                 </div>
                 <img className="port-img" src={parktopia} alt="parktopia-logo"/>
@@ -91,6 +93,8 @@ function Portfolio() {
                     <p id="icon">
                         <a href="https://www.figma.com/file/RNK2PtcDqHux8A8jYAnFeH/Hackathon-2022?type=design&node-id=0-1&mode=design&t=O5yYeTAml9YWVzhc-0" >
                         <FaFigma /></a>
+                        <a href="https://docs.google.com/document/d/15ESWsJ-ptJl2_Y3KgAB37a1CToPneatetk0oOYgfSRE/edit?usp=sharing" >
+                        <IoDocumentTextOutline /></a>
                     </p>
                 </div>
                 <img className="port-img" src={lantern} alt="lantern-logo"/>
