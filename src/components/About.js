@@ -1,5 +1,5 @@
 import './styles/about.css';
-import photo from "../images/portrait edit3.jpg";
+import club from "../images/club.png";
 import event from "../images/event.jpg";
 import React, { useEffect } from "react";
 
@@ -43,12 +43,12 @@ function About() {
                             exceed user expectations, and continuously learn</strong> as I embark on my career path.
                         </p>
                     </div>
-                    <img src={photo} className="port" id="about-port" alt="pic"/>
+                    <img src={event} className="port" id="about-port" alt="event"/>
                 </div>
             </section>
             <section className="hidden-state">
                 <div className="statement">
-                    <img src={event} className="port" alt="event"/>
+                    <img src={club} className="port" alt="event2"/>
                     <div className='begin'>
                         <p className="hidden-state">
                             Beyond my professional pursuits, I'm also <strong>deeply passionate about PC gaming</strong>, and play titles such as Valorant and League of Legends.

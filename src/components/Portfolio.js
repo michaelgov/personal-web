@@ -29,23 +29,6 @@ function Portfolio() {
         <div className="portfolio">
             <section className="hidden-port">
                 <div>
-                    <h2>Blossom</h2>
-                    <p>
-                        Blossom is an app <strong>designed</strong> to help parents overcome the challenges of postpartum.
-                        The app includes resources such as <em>videos, articles, and guided activites</em> to accompany parents in caring for a new child.
-                    </p>
-                    <br />
-                    <p id="icon">
-                        <a href="https://www.figma.com/file/0aktdOfXtrie699x9uQqua/Blossom-Hackathon?type=design&mode=design&t=Ayx3Dw1Z4s7He5mH-0" >
-                        <FaFigma /></a>
-                        <a href="https://docs.google.com/presentation/d/1--714Qw9Bv76TBZtjFhH84Ff66u_yqdd2VIgXPUPEFw/edit?usp=sharing" >
-                        <IoDocumentTextOutline /></a>
-                    </p>
-                </div>
-                <img className="port-img" src={blossom} alt="blossom-logo"/>
-            </section>
-            <section className="hidden-port">
-                <div>
                     <h2>Gender Gap in Gaming</h2>
                     <p>
                         The Gender Gap in Gaming website was <strong>developed</strong> to analyze and provide 
@@ -53,7 +36,7 @@ function Portfolio() {
                     </p>
                     <br />
                     <p id="icon">
-                        <a href="https://www.figma.com/file/QNOvq02eR8z00RBLk3DNxQ/Info-Capstone-Team-Pandas-Prototype?type=design&mode=design&t=hqhfd9FDph5VaMc0-0" >
+                        <a href="https://www.figma.com/proto/QNOvq02eR8z00RBLk3DNxQ/Info-Capstone-Team-Pandas-Prototype?type=design&node-id=601-575&scaling=scale-down&page-id=0%3A1&starting-point-node-id=601%3A575" >
                         <FaFigma /></a>
                         <a href="https://michaelgov.github.io/PandaCapstone/public/index.html" >
                         <BsGlobe /></a>
@@ -81,6 +64,23 @@ function Portfolio() {
                     </p>
                 </div>
                 <img className="port-img" src={parktopia} alt="parktopia-logo"/>
+            </section>
+            <section className="hidden-port">
+                <div>
+                    <h2>Blossom</h2>
+                    <p>
+                        Blossom is an app <strong>designed</strong> to help parents overcome the challenges of postpartum.
+                        The app includes resources such as <em>videos, articles, and guided activites</em> to accompany parents in caring for a new child.
+                    </p>
+                    <br />
+                    <p id="icon">
+                        <a href="https://www.figma.com/proto/0aktdOfXtrie699x9uQqua/Blossom-Hackathon?type=design&node-id=13-5&scaling=scale-down&page-id=0%3A1&starting-point-node-id=13%3A5" >
+                        <FaFigma /></a>
+                        <a href="https://docs.google.com/presentation/d/1--714Qw9Bv76TBZtjFhH84Ff66u_yqdd2VIgXPUPEFw/edit?usp=sharing" >
+                        <IoDocumentTextOutline /></a>
+                    </p>
+                </div>
+                <img className="port-img" src={blossom} alt="blossom-logo"/>
             </section>
             <section className="hidden-port">
                 <div>
