@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.93aa09b6.css",
-    "main.js": "/static/js/main.0010bae8.js",
+    "main.js": "/static/js/main.fae8e39c.js",
     "static/js/787.676fbc64.chunk.js": "/static/js/787.676fbc64.chunk.js",
-    "static/media/event.jpg": "/static/media/event.54f1e523eee1439f128c.jpg",
+    "static/media/event.jpg": "/static/media/event.1c0b40f62afbabb6dd0f.jpg",
+    "static/media/club.png": "/static/media/club.32b5ca6fecb3a859c29c.png",
     "static/media/blossom.png": "/static/media/blossom.94a7a481dcabceec781d.png",
     "static/media/portrait edit3.jpg": "/static/media/portrait edit3.49d3008e88644629caef.jpg",
     "static/media/gendergap.png": "/static/media/gendergap.dadb0fe00ff631ac4c99.png",
@@ -11,11 +12,11 @@
     "static/media/lantern.png": "/static/media/lantern.6a5ebe41fa013eb114ae.png",
     "index.html": "/index.html",
     "main.93aa09b6.css.map": "/static/css/main.93aa09b6.css.map",
-    "main.0010bae8.js.map": "/static/js/main.0010bae8.js.map",
+    "main.fae8e39c.js.map": "/static/js/main.fae8e39c.js.map",
     "787.676fbc64.chunk.js.map": "/static/js/787.676fbc64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93aa09b6.css",
-    "static/js/main.0010bae8.js"
+    "static/js/main.fae8e39c.js"
   ]
 }
