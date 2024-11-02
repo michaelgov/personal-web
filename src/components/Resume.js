@@ -8,27 +8,11 @@ function Resume() {
         <div className="headerSection">
             <h1><strong>Michael Gov</strong></h1>
             <p id="icon">
-                <a href="./MichaelGov_Resume.pdf" download={"MichaelGov_Resume.pdf"}><HiOutlineDownload /></a>
+                <a href="./MichaelGov_Resume2025.pdf" download={"MichaelGov_Resume2025.pdf"}><HiOutlineDownload /></a>
             </p>
         </div>
         <p className="contact-info">360-702-9556 | <a href="mailto:michcgov@gmail.com">michcgov@gmail.com</a> | <a href="https://linkedin.com/in/michael-gov">linkedin.com/in/michael-gov</a> | <a href="https://github.com/michaelgov">github.com/michaelgov</a></p>
       </header>
-
-      <section>
-        <h2><strong>Technical Skills</strong></h2>
-        <hr />
-        <ul>
-          <li>
-            <p className="skillSets"><strong>Languages</strong> JavaScript, HTML/CSS, Java, SQL, R, Python</p>
-          </li>
-          <li>
-            <p className="skillSets"><strong>Technologies:</strong> React.js, Node.js, Leaflet, Plotly, D3.js</p>
-          </li>
-          <li>
-            <p className="skillSets"><strong>Tools:</strong> Photoshop, Illustrator, Figma, Miro, VS Code, Git, Bash, GitHub, Tableau, SSMS, ATLAS.ti</p>
-          </li>
-        </ul>
-      </section>
       
       <section>
         <h2><strong>Education</strong></h2>
@@ -127,6 +111,25 @@ function Resume() {
               <li>Encoded video transcripts to study the relationship between mental wellness and gaming using ATLAS.ti.</li>
               <li>Presented research findings to Informatics faculty and fellow researchers.</li>
             </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2><strong>Skills</strong></h2>
+        <hr />
+        <ul>
+          <li>
+            <p className="skillSets"><strong>Design:</strong> User Experience, Interaction Design, User Interface, Digital Prototyping, Visual Design, Wireframing, Low-High
+            Fidelity Mockups</p>
+          </li>
+          <li>
+            <p className="skillSets"><strong>Research:</strong> user Interviews, User Testing, Information Architecture, Journey Mapping. Quantitative Analysis, A/B
+            Testing</p>
+          </li>
+          <li>
+            <p className="skillSets"><strong>Software: </strong> Photoshop, Illustrator, Figma, Miro, JavaScript, HTML/CSS, Java, SQL, VS Code, Git, Bash, GitHub, Tableau,
+            SSMS, ATLAS.ti</p>
           </li>
         </ul>
       </section>
