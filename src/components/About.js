@@ -32,9 +32,7 @@ function About() {
                             with opportunities beyond what they themselves had in rural Cambodia.
                         </p>
                         <p className="hidden-state">
-                            Today, I am a proud graduate of the <strong>University of Washington with a Bachelor's degree in Informatics</strong>.
-                        </p>
-                        <p className="hidden-state">
+                            Today, I am a proud graduate of the University of Washington with a <strong>Bachelor's degree in Informatics</strong>.
                             Specializing in <strong>Human-Computer Interaction (HCI)</strong>, my passion lies at the intersection of 
                             <em> design and technology,</em> and I am dedicated to developing seamless and pleasing digital experiences.
                         </p>
@@ -59,7 +57,7 @@ function About() {
                         </p>
                         <p className="hidden-state">
                             In addition, I have a <em>passion for cooking</em> and enjoy listening to a mix of <em>Rap and R&B music. </em> 
-                            Japanese cuisine holds a special place in my heart, and you can often find me tuned in to artists like Childish Gambino, Frank Ocean, and Joji!
+                            Japanese cuisine holds a special place in my heart, and you can often find me tuned in to artists like Tyler The Creator, Frank Ocean, and Joji!
                         </p>
                         <p className="hidden-state">
                             Thank you for getting to know a bit about me! Whether you're a startup aiming to make a splash or a brand seeking 
