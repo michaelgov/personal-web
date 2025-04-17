@@ -34,7 +34,8 @@ function About() {
                         <p className="hidden-state">
                             Today, I am a proud graduate of the University of Washington with a <strong>Bachelor's degree in Informatics</strong>.
                             Specializing in <strong>Human-Computer Interaction (HCI)</strong>, my passion lies at the intersection of 
-                            <em> design and technology,</em> and I am dedicated to developing seamless and pleasing digital experiences.
+                            <em> design and technology,</em> and I am dedicated to developing seamless and pleasing digital experiences. 
+                            Currently, I am pursuing a Master of Science in Information Management (MSIM) at UW to deepen my expertise.
                         </p>
                         <p className="hidden-state">
                             With a versatile skill set spanning from <em>user research, prototyping, front-end development, and more</em>, I am eager to <strong>embrace new challenges,

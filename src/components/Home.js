@@ -33,9 +33,9 @@ function Home() {
                         .start()
                     }}     
                 />
-                <p className="hidden">University of Washington graduate with a degree in <strong>Human-Computer Interaction.</strong></p>
-                <p className="hidden">Currently in the <strong>Greater Seattle Area</strong>, eager to explore UX/UI opportunities.</p>
-                <p className="hidden">Dedicated to enhancing my skills to create <strong>mobile and web app</strong> solutions!</p>
+                <p className="hidden">University of Washington graduate in <strong>Human-Computer Interaction,</strong> <br />currently pursuing a Master of Science in Information Management (MSIM) at UW.</p>
+                <p className="hidden">Based in the <strong>Greater Seattle Area</strong> and passionate about UX/UI and product design.</p>
+                <p className="hidden">Focused on building intuitive mobile and web experiences that make a real impact!</p>
                 <p className="hidden"><a href="#/contact" id="contact-link"><strong>Feel free to reach me!</strong></a>
                     <br />
                     <span id="icons"><a href="https://www.linkedin.com/in/michael-gov/"><BsLinkedin /></a><a href="https://github.com/michaelgov"><BsGithub /></a></span>
